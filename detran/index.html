@@ -17,11 +17,13 @@
       </div>-->
 
       <div class="sky">
-        <h1>Sistema de Velocidades </h1>
-        Velocidade do carro: <input type="number" name="txtvel" id="txtvel"> km/h
-        <input type="button" value="Verificar" onclick="calcular()">
-        <div id="res">     
-          </div>
+        <div class="velocidade">
+          <h1>Sistema de Velocidades </h1>
+              Velocidade do carro: <input type="number" name="txtvel" id="txtvel"> km/h
+           <input type="button" value="Verificar" onclick="calcular()">
+             <div id="res">     
+             </div>
+        </div>
         <div class="tree"></div>
         <div class="track"></div>
         <div class="car"></div>
@@ -29,7 +31,7 @@
         <div class="wheel wheel2"></div>
         
 
-    </div>
+     </div>
 <script>
     function calcular() {
     var txtv = window.document.querySelector('input#txtvel')
