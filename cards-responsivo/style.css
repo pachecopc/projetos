@@ -92,6 +92,13 @@
 
             }
 
+            .container .card:hover #face  {
+                color: white;
+                background-color: rgba(43, 255, 0, 0.585);
+
+            }
+
+              
 
 
 
