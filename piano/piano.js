@@ -21,7 +21,7 @@ const handleMouseDown = (key) => {
 
 const handleMouseUp = (key) => {
 
-    if (key.className.includes('black')) {
+    if (key.className.includes('black')) {        
         key.classList.remove('black--pressed');
         return;
     }
